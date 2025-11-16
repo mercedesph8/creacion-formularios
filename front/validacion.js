@@ -30,9 +30,8 @@
       passwordConfirm.classList.remove('is-invalid');
     }
 
-    // Activamos los estilos de validación de Bootstrap ---
-    form.classList.add('was-validated');
-
+    // Activamos los estilos de validación de Bootstrap (muestra los campos que están bien en verde y mal en rojo)
+    formulario.classList.add('was-validated');
   }, false);
 })();
 
